@@ -1,0 +1,10 @@
+#DATASET
+dataset/asl-alphabet/
+dataset/backup_dataset/
+dataset/asl-alphabet.zip
+
+#LOGS
+logs/fit/
+
+#MODELS UNZIPPED
+models/

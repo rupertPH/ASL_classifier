@@ -28,6 +28,59 @@ pip install tensorflow tensorflow-metal pydot matplotlib numpy pillow scikit-lea
 
 ---
 
+# DATASET
+
+---
+
+## 🇵🇱 Polski
+
+Projekt wykorzystuje publicznie dostępny zbiór danych **ASL Alphabet** udostępniony na platformie Kaggle:
+
+[ASL Alphabet Dataset (Kaggle)](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
+
+### Opis zbioru danych
+
+Dataset zawiera obrazy przedstawiające gesty dłoni odpowiadające literom amerykańskiego języka migowego (ASL). Zbiór składa się z **29 klas**:
+
+- 26 liter alfabetu (`A-Z`)
+- `SPACE`
+- `DELETE`
+- `NOTHING`
+
+### Główne właściwości
+
+- **Liczba obrazów treningowych:** ~87 000
+- **Rozdzielczość obrazów:** `200x200`
+- **Typ danych:** kolorowe fotografie gestów dłoni (RGB)
+- **Liczba klas:** 29
+- **Format zbioru:** struktura katalogowa kompatybilna z klasyfikacją obrazów
+
+---
+
+## 🇬🇧 English
+
+The project uses the publicly available **ASL Alphabet** dataset hosted on Kaggle:
+
+[ASL Alphabet Dataset (Kaggle)](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
+
+### Dataset Overview
+
+The dataset contains images representing hand gestures corresponding to letters of the American Sign Language (ASL) alphabet. It consists of **29 classes**:
+
+- 26 alphabet letters (`A-Z`)
+- `SPACE`
+- `DELETE`
+- `NOTHING`
+
+### Key Properties
+
+- **Training images:** ~87,000
+- **Image resolution:** `200x200`
+- **Image type:** RGB photographs of hand gestures
+- **Number of classes:** 29
+- **Dataset format:** folder-based image classification structure
+
+
 # 📂 Scripts Overview / Przegląd Skryptów
 
 ---
